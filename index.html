@@ -2,8 +2,10 @@
 <meta charset="UTF-8">
 <html lang="en">
 <head>
+   
      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
 
    <title>Crystal Game</title> 
 
@@ -36,16 +38,16 @@
 
 </div>
 
-<div class="guessNumber">Target:</div>
+<div class="guessNumber">Target:<div id="guessnumberid"> </div></div>
 <div class="totalWinLoss">
 	<div class="wins">Wins:<h1 id="win-count"></h1></div>
-	<div class="loses">Losses:<h1 id="loss-count"></h1></div>
+	<div class="losses">Losses:<h1 id="loss-count"></h1></div>
  </div>
  <div class="score">
-	Total Score:
+	Total Score: <div id="scorediv"> </div>
 </div>
 
-<div class="total" "" </div>
+<div class="total"> </div>
 
 <div class="container">
 <div class="row">
@@ -65,10 +67,16 @@
   </div>
   <div class="row">
   <div class="col-lg-3">
-	<img class="image" id="red" src="./assets/images/red.jpg" alt="red"></div>
+  <img class="image" id="red" src="./assets/images/red.jpg" alt="red">
+  </div>
   </div>
 </div>
 </div>
-        
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>       
+<script src="assets/javascript/game.js"></script>
+
+
    </body>
     </html>
