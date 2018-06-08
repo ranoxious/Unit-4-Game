@@ -5,6 +5,7 @@
    
      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   
 
    <title>Crystal Game</title> 
@@ -16,7 +17,8 @@
         <header>Crystal Game</header>
         <div id="h1">Crystal Collector</div>
        
-  <div id="box">
+  <div class="container" id="box">
+    <div  class="box row">
   <ul type="disc">
     <h2>Instructions</h2>
 		
@@ -35,9 +37,8 @@
 		<li>Each time the game starts, the value of each crystal will change and the random number will change.
 		</li>
   </ul>
-
-</div>
-
+</div>  
+<div class="row">
 <div class="guessNumber">Target:<div id="guessnumberid"> </div></div>
 <div class="totalWinLoss">
 	<div class="wins">Wins:<h1 id="win-count"></h1></div>
@@ -48,29 +49,24 @@
 </div>
 
 <div class="total"> </div>
-
-<div class="container">
+</div>
 <div class="row">
 	<div class"col-lg-3">
 	<img class="image"  id="blue" src="./assets/images/blue.jpg" alt="blue">
 </div>
-</div>
-<div class="row">
+<div>
   <div class="col-lg-3">
 	<img class="image" id="green" src="./assets/images/green.jpg" alt="green">
   </div>
   </div>
-  <div class="row">
+
   <div class="col-lg-3">
 	<img class="image" id="yellow" src="./assets/images/yellow.jpg" alt="yellow">
   </div>
-  </div>
-  <div class="row">
   <div class="col-lg-3">
   <img class="image" id="red" src="./assets/images/red.jpg" alt="red">
   </div>
   </div>
-</div>
 </div>
 
 
